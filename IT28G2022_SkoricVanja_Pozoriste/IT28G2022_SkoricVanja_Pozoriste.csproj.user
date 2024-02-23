@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Legion 5 15\source\repos\IT28G2022_SkoricVanja_Pozoriste\IT28G2022_SkoricVanja_Pozoriste\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forme\Gledalac.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Glumac.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Izvedba.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Pozoriste.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Predstava.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Reditelj.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Ulaznica.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Zaposleni.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forme\Gledalac.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Glumac.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Izvedba.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Pozoriste.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Predstava.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Reditelj.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Ulaznica.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Zaposleni.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

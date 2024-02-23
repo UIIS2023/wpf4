@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IT28G2022_SkoricVanja_Pozoriste</id>
+    <version>1.0.0</version>
+    <authors>IT28G2022_SkoricVanja_Pozoriste</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Legion 5 15\source\repos\IT28G2022_SkoricVanja_Pozoriste\IT28G2022_SkoricVanja_Pozoriste\bin\Debug\net8.0-windows\IT28G2022_SkoricVanja_Pozoriste.runtimeconfig.json" target="lib\net8.0-windows7.0\IT28G2022_SkoricVanja_Pozoriste.runtimeconfig.json" />
+    <file src="C:\Users\Legion 5 15\source\repos\IT28G2022_SkoricVanja_Pozoriste\IT28G2022_SkoricVanja_Pozoriste\bin\Debug\net8.0-windows\IT28G2022_SkoricVanja_Pozoriste.dll" target="lib\net8.0-windows7.0\IT28G2022_SkoricVanja_Pozoriste.dll" />
+  </files>
+</package>

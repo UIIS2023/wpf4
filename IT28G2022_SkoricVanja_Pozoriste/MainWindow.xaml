@@ -1,0 +1,63 @@
+﻿<Window x:Class="IT28G2022_SkoricVanja_Pozoriste.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IT28G2022_SkoricVanja_Pozoriste"
+        mc:Ignorable="d"
+        Title="Vanja_Škorić_IT28/2022" Height="450" Width="800" ResizeMode="NoResize" Icon="C:\Users\Legion 5 15\source\repos\IT28G2022_SkoricVanja_Pozoriste\IT28G2022_SkoricVanja_Pozoriste\Pozorište.ico">
+    <Grid Margin="0,0,0,5">
+        <Image Source="C:\Users\Legion 5 15\Desktop\maske.png" Margin="610,277,-8,-4" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="20.216"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Source="C:\Users\Legion 5 15\Desktop\maske.png" Margin="11,283,621,-14" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-23.661"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Source="C:\Users\Legion 5 15\Desktop\dobrodosliii.png" Margin="314,12,311,307" RenderTransformOrigin="0.5,0.5" >
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.332"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <DataGrid Name="dataGridCentralni" HorizontalAlignment="Center" VerticalAlignment="Center" Height="auto" Width="auto" IsReadOnly="True"
+                  AlternatingRowBackground="IndianRed" CanUserAddRows="False" SelectionUnit="FullRow" SelectionMode="Single" FontSize="18" FontFamily="Bahnschrift SemiLight SemiCondensed" BorderBrush="#FF411010" Foreground="Black" Background="#FFD2C7B2"/>
+        <StackPanel HorizontalAlignment="Center" Height="30"  VerticalAlignment="Top" Width="auto" Orientation="Horizontal">
+            <Button x:Name="btnPozoriste" Content="Pozorište" Height="30" VerticalAlignment="Top" Width="100" Click="btnPozoriste_Click" FontFamily="Berlin Sans FB" FontSize="18" BorderThickness="1,1,1,1" Background="#FFEDCFB8" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A"/>
+            <Button x:Name="btnPredstava" Content="Predstava" Height="30" VerticalAlignment="Top" Width="100" Click="btnPredstava_Click" Background="#FFEDCFB8" FontFamily="Berlin Sans FB" FontSize="18" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A"/>
+            <Button x:Name="btnIzvedba" Content="Izvedba" Height="30" VerticalAlignment="Top" Width="100" Click="btnIzvedba_Click" Background="#FFEDCFB8" FontFamily="Berlin Sans FB" FontSize="18" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A" />
+            <Button x:Name="btnGlumac" Content="Glumac" Height="30" VerticalAlignment="Top" Width="100" Click="btnGlumac_Click" Background="#FFEDCFB8" FontFamily="Berlin Sans FB" FontSize="18" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A"/>
+            <Button x:Name="btnReditelj" Content="Reditelj" Height="30" VerticalAlignment="Top" Width="100" Click="btnReditelj_Click" Background="#FFEDCFB8" FontFamily="Berlin Sans FB" FontSize="18" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A"/>
+            <Button x:Name="btnGledalac" Content="Gledalac" Height="30" VerticalAlignment="Top" Width="100" Click="btnGledalac_Click" Background="#FFEDCFB8" FontFamily="Berlin Sans FB" FontSize="18" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A" />
+            <Button x:Name="btnZaposleni" Content="Zaposleni" Height="30" VerticalAlignment="Top" Width="100" Click="btnZaposleni_Click" Background="#FFEDCFB8" FontFamily="Berlin Sans FB" FontSize="18" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A"/>
+            <Button x:Name="btnUlaznica" Content="Ulaznica" Height="30" VerticalAlignment="Top" Width="100" Click="btnUlaznica_Click" Background="#FFEDCFB8" FontFamily="Berlin Sans FB" FontSize="18" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Height="30"  VerticalAlignment="Bottom" Width="360" Orientation="Horizontal">
+            <Button x:Name="btnDodaj" Content="Dodaj" Width="121" Click="btnDodaj_Click" Background="#FFEDCFB8" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A" FontFamily="Berlin Sans FB" FontSize="18"/>
+            <Button x:Name="btnIzmeni" Content="Izmeni" Width="121" Click="btnIzmeni_Click" Background="#FFEDCFB8" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A" FontFamily="Berlin Sans FB" FontSize="18" />
+            <Button x:Name="btnObrisi" Content="Obriši" Width="120" Click="btnObrisi_Click" Background="#FFEDCFB8" BorderBrush="#FFAF4038" Foreground="#FF2D0A0A" FontFamily="Berlin Sans FB" FontSize="18" />
+        </StackPanel>
+        <Grid.Background>
+            <ImageBrush Stretch="None" ImageSource="C:\Users\Legion 5 15\Desktop\pozoriste.jpg" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        
+        
+    </Grid>
+</Window>

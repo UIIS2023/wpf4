@@ -1,0 +1,9 @@
+﻿<Application x:Class="IT28G2022_SkoricVanja_Pozoriste.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:IT28G2022_SkoricVanja_Pozoriste"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
