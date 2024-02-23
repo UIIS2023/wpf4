@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IT28G2022_SkoricVanja_Pozoriste", "IT28G2022_SkoricVanja_Pozoriste\IT28G2022_SkoricVanja_Pozoriste.csproj", "{D09CAABF-D5F2-4202-B663-B0251DAF8892}"
 EndProject
-Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Pozorište", "Pozorište\Pozorište.aiproj", "{68BBE5C9-E7E0-4141-9E96-B640EF061A93}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		All|Any CPU = All|Any CPU
